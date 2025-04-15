@@ -1,0 +1,30 @@
+:root {
+  --discord-blurple: #5865F2;
+  --discord-dark: #36393f;
+}
+
+body {
+  font-family: 'Whitney', sans-serif;
+  background: var(--discord-dark);
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.discord-login-btn {
+  background: var(--discord-blurple);
+  color: white;
+  padding: 12px 24px;
+  border-radius: 3px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+}
